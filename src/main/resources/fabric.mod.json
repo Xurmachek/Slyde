@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "slyde",
+  "version": "${version}",
+  "name": "Slyde",
+  "description": "Allows dragging sliders further than intended",
+  "authors": ["JFronny"],
+  "contact": {
+    "email": "projects.contact@frohnmeyer-wds.de",
+    "homepage": "https://jfronny.gitlab.io",
+    "issues": "https://git.jfronny.dev/JfMods/Slyde/issues",
+    "sources": "https://git.jfronny.dev/JfMods/Slyde"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "icon": "assets/slyde/icon.png",
+  "entrypoints": {
+    "libjf:config": ["dev.jfronny.slyde.JFC_Cfg"]
+  },
+  "mixins": [
+    "slyde.mixins.json"
+  ],
+  "accessWidener": "slyde.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": "*",
+    "libjf-config-core-v1": ">=2.1.3"
+  }
+}

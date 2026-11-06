@@ -1,0 +1,11 @@
+{
+    "slyde.jfconfig.title": "Slyde",
+    "slyde.jfconfig.sodiumCompat": "Sodium Compat",
+    "slyde.jfconfig.sodiumCompat.tooltip": "If sodium is installed, modify its slider widget as well",
+    "slyde.jfconfig.forceSodiumCompat": "Force Sodium Compat",
+    "slyde.jfconfig.forceSodiumCompat.tooltip": "Attempt to modify sodium's slider widget even if sodium is not detected",
+    "slyde.jfconfig.holdKeyToActivate": "Hold Shift/Ctrl key to activate",
+    "slyde.jfconfig.holdKeyToActivate.tooltip": "Require holding Shift or Ctrl to drag sliders further than intended.\nIf false, Shift and Ctrl will disable the extended dragging instead.",
+    "slyde.jfconfig.mouseLock": "Acquire mouse lock when dragging sliders",
+    "slyde.jfconfig.mouseLock.tooltip": "This allows you to drag sliders even further since it avoids the screen edge stopping the mouse."
+}
